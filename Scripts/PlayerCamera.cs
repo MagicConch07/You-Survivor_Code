@@ -102,7 +102,7 @@ public class PlayerCamera : MonoBehaviour
         //Clamp.
         pitch = Mathf.Clamp(pitch, -cameraRotationLimit, cameraRotationLimit);
 
-        // 다시 쿼터니언으로 변환
+        // Again Quaternion conversion
         rotation.x = Mathf.Tan(0.5f * Mathf.Deg2Rad * pitch);
 
         //Return.

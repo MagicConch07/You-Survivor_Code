@@ -26,10 +26,8 @@ namespace Work._01_Scripts
 
             _weapon.InitCaster(this);
 
-            // Todo : Cursor Lock and Visble 따로 처리
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
-            //! 이거 진짜 분리 해야 해
         }
 
         public override void SetDead()
